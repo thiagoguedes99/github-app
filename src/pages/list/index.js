@@ -3,8 +3,8 @@ import React from 'react';
 export default function List() {
 
   return (
-    <header>
+    <div>
       list comoponet
-    </header>
+    </div>
   )
 }
