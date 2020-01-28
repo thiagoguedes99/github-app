@@ -6,14 +6,17 @@ import './assets/sass/main.scss'
 import { GithubContextProvider } from './contexts';
 
 import App from './App';
-import TestClass from './testClass';
+// import AppClass from './AppClass';
+// import AppHooks from './AppHooks';
+
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <GithubContextProvider>
     <App />
-    {/* <TestClass /> */}
+    {/* <AppClass /> */}
+    {/* <AppHooks /> */}
   </GithubContextProvider>,
   document.getElementById('root'));
 
