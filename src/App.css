@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.dois {
+/* .dois.dois { */
+  color: red;
+  /* color: red !important; */
 }

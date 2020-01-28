@@ -1,3 +1,25 @@
+pontos para ver:
+
+css:
+sass,
+arquitetura css,
+bem, atomic design, oocss, smacss.
+
+react:
+hooks,
+hoc,
+context,
+
+
+
+api:
+rest
+
+tests:
+jest,
+enzyme
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
