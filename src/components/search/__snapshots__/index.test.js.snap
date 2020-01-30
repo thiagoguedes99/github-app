@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of avatar should match snapshot 1`] = `
+<form
+  className="search__container"
+  onSubmit={[Function]}
+>
+  <input
+    autoComplete="off"
+    className="search__input"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

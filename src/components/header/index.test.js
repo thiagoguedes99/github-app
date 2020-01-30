@@ -56,6 +56,11 @@ describe('test"s of avatar', () => {
     expect(wrapper.children().at(0).props().className).toEqual('header__text')
   })
 
+  it('should render the value of user.login', () => {
+    // shallow
+    expect(wrapper.children().at(0).text()).toEqual('mock login')
+  })
+
   // only with shallow
   it('should has Avatar component', () => {
     expect(wrapper.children().at(1).find(Avatar)).toHaveLength(1)

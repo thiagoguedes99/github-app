@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
@@ -18,9 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:coverage": "npm test -- --coverage",
-    "test:coverage:watch": "npm run test:coverage -- --watch",
-    "eject": "react-scripts eject"
+    "test:coverage": "react-scripts test --coverage",
+    "test:dev": "react-scripts test --coverage --watchAll"
   },
   "eslintConfig": {
     "extends": "react-app"

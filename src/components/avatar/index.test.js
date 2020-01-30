@@ -1,6 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { mount } from 'enzyme'
+import { mount, shallow } from 'enzyme'
 import Avatar from './index'
 
 let wrapper
