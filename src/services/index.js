@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { Nav } from '../components';
+// import { Nav } from '../components';
 
-import { getUser } from './api';
+import { getUsersList, getUser } from './api';
 
 // export default function withServices(Component) {
 //   // console.log('dentro do hoc')
@@ -18,9 +18,10 @@ export default function withServices(Component) {
 
   const ComponentWithServices = props => (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Component service={{
-        getUser
+        getUsersList,
+        getUser,
       }} {...props} />
     </>
   )

@@ -16,9 +16,9 @@ function App() {
         <Switch>
           <Route exact={true} path={'/'} render={props => <Home {...props} />} />
 
-          <Route exact={true} path={`/lista`} render={props => <List {...props} />} />
+          <Route exact={true} path={`/list`} render={props => <List {...props} />} />
 
-          <Route path={`/detalhe`} render={props => <Detail {...props} />} />
+          <Route path={`/detail/:user`} render={props => <Detail {...props} />} />
 {/* 
           <Route path="/error404" render={props => <NotFound {...props} />} />
 
@@ -27,8 +27,6 @@ function App() {
           <Route path="*" render={props => <NotFound {...props} />} /> */}
         </Switch>
       </Router>
-
-      
     </>
   );
 }

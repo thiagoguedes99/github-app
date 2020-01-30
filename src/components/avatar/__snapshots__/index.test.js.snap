@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of avatar should match snapshot 1`] = `
+<img
+  className="avatar"
+/>
+`;

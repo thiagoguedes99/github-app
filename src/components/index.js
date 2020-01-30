@@ -1,2 +1,3 @@
+export { default as Avatar } from './avatar';
 export { default as Header } from './header';
-export { default as Nav } from './nav';
+export { default as Search } from './search';

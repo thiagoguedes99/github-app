@@ -20,6 +20,19 @@ jest,
 enzyme
 
 
+Configuração dos testes.
+
+1 - instalar `npm install --save-dev jest`.
+2 - instalar `pm i --save-dev enzyme enzyme-adapter-react-16`.
+3 - criar um arquivo `setupTests.js` dentro da pasta `src`.
+4 - adicionar esse código no arquivo anterior
+```
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+ 
+Enzyme.configure({ adapter: new Adapter() });
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

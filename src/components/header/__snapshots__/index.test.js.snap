@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of avatar should match snapshot 1`] = `
+<header
+  className="header__container"
+>
+  <span
+    className="header__text"
+  >
+    mock login
+  </span>
+  <img
+    alt="mock login"
+    className="avatar"
+    src="mock url"
+  />
+</header>
+`;
